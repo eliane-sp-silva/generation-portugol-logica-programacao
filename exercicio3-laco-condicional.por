@@ -27,8 +27,9 @@ programa
 		quadrado3 = mat.potencia(num3, 2.0)
 		quadrado4 = mat.potencia(num4, 2.0)
 		
+		
 		se(quadrado3 >= 1000){
-			escreva("\nO valor resultante do quadrado do terceiro é: ", quadrado3)
+			escreva("\nO valor resultante do quadrado do terceiro é: ", mat.arredondar(quadrado3,2), "\n")
 			
 		 }senao {
 		 	escreva("\nPrimeiro valor digitado: ", num1, " seu respectivo quadrado é: ", mat.arredondar(quadrado1,2))
@@ -44,7 +45,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 988; 
+ * @POSICAO-CURSOR = 804; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
