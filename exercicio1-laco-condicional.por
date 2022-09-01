@@ -1,6 +1,6 @@
 programa
 {
-	/*
+	/*
 	1) João comprou um microcomputador para controlar o rendimento diário de seu trabalho. 
 	Toda vez que ele traz um peso de tomate maior que o estabelecido pelo regulamento do
 	estado de São Paulo (50 quilos) deve pagar um multa de R$ 4,00 por quilo excedente. 
@@ -21,7 +21,7 @@ programa
 			E = 0.0
 			multa = 0.0
 			}
-				escreva("\nExcesso: ", E, " e a multa: ", multa)
+				escreva("\nExcesso: ", E, " e a multa: ", multa,"\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -29,7 +29,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 301; 
+ * @POSICAO-CURSOR = 801; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
